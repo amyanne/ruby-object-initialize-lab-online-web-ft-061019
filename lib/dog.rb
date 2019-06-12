@@ -4,4 +4,4 @@ class Dog
     @breed = dog_breed
   end
 end 
-dog = Dog.new(dog_name, "Mutt")
+dog = Dog.new(@name, "Mutt")
